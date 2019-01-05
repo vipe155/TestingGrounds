@@ -12,3 +12,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG5 Use git clean to Revert Project
 *TG6 First Person Character Overview
 *TG7 The Third Person Character
+*TG8 Introducing AI Behaviour Trees
