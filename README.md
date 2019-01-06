@@ -14,3 +14,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG7 The Third Person Character
 *TG8 Introducing AI Behaviour Trees
 *TG9 Introducing AI Blackboard Data
+*TG10 Target Points and Patrol Routes
