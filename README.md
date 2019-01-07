@@ -16,3 +16,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG9 Introducing AI Blackboard Data
 *TG10 Target Points and Patrol Routes
 *TG11 Using Any Actor for Waypoints
+*TG12 Options for Grouping Actors
