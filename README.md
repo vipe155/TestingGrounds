@@ -21,3 +21,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG14 Modular Arithmetic & Cycles
 *TG15 Performance Profiling 101
 *TG16 C++ AI Behaviour Tree Tasks
+*TG17 Reading Blackboard Data in C++
