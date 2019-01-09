@@ -27,3 +27,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG20 Composition over Inheritance
 *TG21 How to Delete a C++ Class
 *TG22 Instanced Materials
+*TG23 Introducing AI Perception
