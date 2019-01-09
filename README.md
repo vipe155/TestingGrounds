@@ -26,3 +26,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG19 Converting Blueprint to C++
 *TG20 Composition over Inheritance
 *TG21 How to Delete a C++ Class
+*TG22 Instanced Materials
