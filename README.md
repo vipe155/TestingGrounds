@@ -24,3 +24,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG17 Reading Blackboard Data in C++
 *TG18 The Consequences of Inheritance
 *TG19 Converting Blueprint to C++
+*TG20 Composition over Inheritance
