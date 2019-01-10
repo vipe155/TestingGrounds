@@ -29,3 +29,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG22 Instanced Materials
 *TG23 Introducing AI Perception
 *TG24 OnTargetPerceptionUpdated Event
+*TG25 AI Hearing Perception in Unreal
