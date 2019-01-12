@@ -35,3 +35,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG28 Customising a Character Blueprint
 *TG29 Sub Behaviour Trees
 *TG30 Simplifying Our Project
+*TG31 Renaming & Moving CPP
