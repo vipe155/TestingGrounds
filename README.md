@@ -39,3 +39,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG32 Solution: Renaming & Moving CPP
 *TG33 Holding a Gun with Skeletal Sockets
 *TG34 Understanding Animation Blueprints
+*TG35 Creating Animation State Machines
