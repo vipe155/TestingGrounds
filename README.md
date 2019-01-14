@@ -40,3 +40,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG33 Holding a Gun with Skeletal Sockets
 *TG34 Understanding Animation Blueprints
 *TG35 Creating Animation State Machines
+*TG36 Movement Blend Spaces
