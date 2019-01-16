@@ -45,3 +45,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG38 Aiming Blend Spaces Offsets
 *TG39 Rotating with SetFocalPoint()
 *TG40 Character Movement vs Rotation
+*TG41 Control Rotation for Aim
