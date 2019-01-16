@@ -44,3 +44,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG37 Offset Animations
 *TG38 Aiming Blend Spaces Offsets
 *TG39 Rotating with SetFocalPoint()
+*TG40 Character Movement vs Rotation
