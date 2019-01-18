@@ -48,6 +48,9 @@ class AFirstPersonCharacter : public ACharacter
 public:
 	AFirstPersonCharacter();
 
+	UPROPERTY(EditDefaultsOnly, Category = "Setup")
+	TSubclassOf<class AGun> GunBlueprint;
+
 protected:
 	virtual void BeginPlay();
 
@@ -137,6 +140,9 @@ public:
 	FORCEINLINE class USkeletalMeshComponent* GetMesh1P() const { return Mesh1P; }
 	/** Returns FirstPersonCameraComponent subobject **/
 	FORCEINLINE class UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
+
+private:
+	AGun* Gun;
 
 };
 
