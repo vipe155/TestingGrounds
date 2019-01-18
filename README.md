@@ -49,3 +49,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG42 Behaviour Tree Decorators
 *TG43 Behaviour Tree Services
 *TG44 Tweaking AI Behaviour
+*TG45 Debugging AI Behaviour
