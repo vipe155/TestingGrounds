@@ -50,3 +50,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG43 Behaviour Tree Services
 *TG44 Tweaking AI Behaviour
 *TG45 Debugging AI Behaviour
+*TG46 Refactoring to a Gun Actor
