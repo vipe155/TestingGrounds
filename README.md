@@ -56,3 +56,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG49 Moving Files from LFS to Git
 *TG50 To LFS or Not to LFS?
 *TG51 Child Actor Components
+*TG52 Introduction to Inverse Kinematics
