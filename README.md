@@ -60,3 +60,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG53 Inverse Kinematics with Animations
 *TG54 Comparing Blueprints with Diffs
 *TG55 Boolean Blending for Aim States
+*TG56 Adding Firing Animations
