@@ -58,3 +58,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG51 Child Actor Components
 *TG52 Introduction to Inverse Kinematics
 *TG53 Inverse Kinematics with Animations
+*TG54 Comparing Blueprints with Diffs
