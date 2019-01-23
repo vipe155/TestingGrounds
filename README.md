@@ -63,3 +63,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG56 Adding Firing Animations
 *TG57 Animation Notify Events
 *TG58 Taking Damage in Blueprint
+*TG59 Death Animations and Refactors
