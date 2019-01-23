@@ -62,3 +62,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG55 Boolean Blending for Aim States
 *TG56 Adding Firing Animations
 *TG57 Animation Notify Events
+*TG58 Taking Damage in Blueprint
