@@ -66,3 +66,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG59 Death Animations and Refactors
 *TG60 Switching 1st and 3rd Person
 *TG61 Owner Invisible Meshes
+*TG62 Separating Firing from Gun Meshes
