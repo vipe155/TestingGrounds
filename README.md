@@ -69,3 +69,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG62 Separating Firing from Gun Meshes
 *TG63 Aiming Our 1st Person Camera (Obsolete)
 *TG64 Architecture of Infinite Runners
+*TG65 Spawning Terrain in the GameMode
