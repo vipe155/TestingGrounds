@@ -70,3 +70,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG63 Aiming Our 1st Person Camera (Obsolete)
 *TG64 Architecture of Infinite Runners
 *TG65 Spawning Terrain in the GameMode
+*TG66 Level Gating for Testing Grounds
