@@ -71,3 +71,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG64 Architecture of Infinite Runners
 *TG65 Spawning Terrain in the GameMode
 *TG66 Level Gating for Testing Grounds
+*TG67 Swapping Materials in Blueprint
