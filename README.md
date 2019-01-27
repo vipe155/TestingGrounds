@@ -72,3 +72,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG65 Spawning Terrain in the GameMode
 *TG66 Level Gating for Testing Grounds
 *TG67 Swapping Materials in Blueprint
+*TG68 Garbage Collecting Previous Tiles
