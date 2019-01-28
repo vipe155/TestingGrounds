@@ -75,3 +75,5 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG68 Garbage Collecting Previous Tiles
 *TG69 Merging Our TP and FP Files
 *TG70 Hit vs Overlap Events
+*TG71 Dynamically Calculating NavMesh
+*TG72 Keep It Simple Stupid
