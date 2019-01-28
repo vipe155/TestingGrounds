@@ -74,3 +74,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG67 Swapping Materials in Blueprint
 *TG68 Garbage Collecting Previous Tiles
 *TG69 Merging Our TP and FP Files
+*TG70 Hit vs Overlap Events
