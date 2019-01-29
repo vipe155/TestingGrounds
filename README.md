@@ -79,3 +79,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG72 Keep It Simple Stupid
 *TG73 Parallel Behaviour Tree Tasks
 *TG74 Custom BT Tasks and Decorators
+*TG75 External Build Data in 4.14+
