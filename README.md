@@ -80,3 +80,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG73 Parallel Behaviour Tree Tasks
 *TG74 Custom BT Tasks and Decorators
 *TG75 External Build Data in 4.14+
+*TG76 Physical Gun Architecture
