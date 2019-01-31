@@ -82,3 +82,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG75 External Build Data in 4.14+
 *TG76 Physical Gun Architecture
 *TG77 Converting a Character BP to C++
+*TG78 Who’s Pulled the Trigger?
