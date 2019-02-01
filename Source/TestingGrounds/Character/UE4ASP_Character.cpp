@@ -33,15 +33,24 @@ void AUE4ASP_Character::BeginPlay()
 {
 	Super::BeginPlay();
 
-	if (GunBlueprint == NULL) {
+	if (GunBlueprint == nullptr) {
 		UE_LOG(LogTemp, Warning, TEXT("Gun blueprint missing"));
 		return;
 	}
 	Gun = GetWorld()->SpawnActor<AGun>(GunBlueprint);
-	Gun->AttachToComponent(Mesh_1P, FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));
-	Gun->AnimInstance = GetMesh()->GetAnimInstance();
 
-	if (InputComponent != NULL) {
+	// attach gun component to Skeleton, since Skeleton not yet created in constructor
+	if (IsPlayerControlled()) {
+		Gun->AttachToComponent(Mesh_1P, FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));
+	}
+	else
+	{
+		Gun->AttachToComponent(GetMesh(), FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));
+	}
+	Gun->AnimInstance1P = Mesh_1P->GetAnimInstance();
+	Gun->AnimInstance3P = GetMesh()->GetAnimInstance();
+
+	if (InputComponent != nullptr) {
 		InputComponent->BindAction("Fire", IE_Pressed, this, &AUE4ASP_Character::PullTrigger);
 	}
 }
@@ -58,6 +67,18 @@ void AUE4ASP_Character::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	
+}
+
+void AUE4ASP_Character::UnPossessed() 
+{
+	Super::UnPossessed();
+	if (!ensure(Gun))
+	{
+		UE_LOG(LogTemp, Error, TEXT("Gun is not available"))
+		return;
+	}
+	UE_LOG(LogTemp, Warning, TEXT("Gun re-attached"))
+	Gun->AttachToComponent(GetMesh(), FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));
 }
 
 void AUE4ASP_Character::PullTrigger()
