@@ -84,3 +84,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG77 Converting a Character BP to C++
 *TG78 Who’s Pulled the Trigger?
 *TG79 Cooldown Nodes & Gameplay Tags
+*TG80 Animation Montages and Slots

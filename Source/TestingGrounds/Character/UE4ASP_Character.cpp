@@ -39,7 +39,7 @@ void AUE4ASP_Character::BeginPlay()
 	}
 	Gun = GetWorld()->SpawnActor<AGun>(GunBlueprint);
 	Gun->AttachToComponent(Mesh_1P, FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));
-	Gun->AnimInstance = Mesh_1P->GetAnimInstance();
+	Gun->AnimInstance = GetMesh()->GetAnimInstance();
 
 	if (InputComponent != NULL) {
 		InputComponent->BindAction("Fire", IE_Pressed, this, &AUE4ASP_Character::PullTrigger);
