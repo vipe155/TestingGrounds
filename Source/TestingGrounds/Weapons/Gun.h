@@ -44,7 +44,7 @@ public:
 	class UAnimMontage* FireAnimation1P;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
-		class UAnimMontage* FireAnimation3P;
+	class UAnimMontage* FireAnimation3P;
 
 	class UAnimInstance* AnimInstance1P;
 
