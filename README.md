@@ -91,3 +91,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG84 Spawning Actors in the Tile
 *TG85 Sphere Casting in C++
 *TG86 Configure Custom Trace Channels
+*TG87 Spawning into Free Space
