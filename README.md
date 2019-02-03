@@ -89,3 +89,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG82 Procedural Level Generation
 *TG83 Generating Random Numbers
 *TG84 Spawning Actors in the Tile
+*TG85 Sphere Casting in C++
