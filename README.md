@@ -88,3 +88,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG81 Reattaching the Gun
 *TG82 Procedural Level Generation
 *TG83 Generating Random Numbers
+*TG84 Spawning Actors in the Tile
