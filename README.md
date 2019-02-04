@@ -92,3 +92,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG85 Sphere Casting in C++
 *TG86 Configure Custom Trace Channels
 *TG87 Spawning into Free Space
+*TG88 Randomising Rotation & Scale
