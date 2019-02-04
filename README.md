@@ -94,3 +94,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG87 Spawning into Free Space
 *TG88 Randomising Rotation & Scale
 *TG89 Flyweight Pattern for Foliage
+*TG90 Choosing Waypoint with EQS
