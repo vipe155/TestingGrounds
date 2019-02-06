@@ -23,6 +23,12 @@ protected:
 
 	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
 
+	UPROPERTY(EditDefaultsOnly, Category = "Spawning")
+		FVector MinSpawnBound;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Spawning")
+		FVector MaxSpawnBound;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
