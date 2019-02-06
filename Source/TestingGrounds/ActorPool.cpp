@@ -15,13 +15,25 @@ UActorPool::UActorPool()
 
 AActor * UActorPool::Checkout()
 {
+	UE_LOG(LogTemp, Warning, TEXT("%s Checkout"), *(this->GetName()));
 	return nullptr;
 }
 
 void UActorPool::Return(AActor * ActorToReturn)
 {
+	if (ActorToReturn == nullptr) {
+		UE_LOG(LogTemp, Warning, TEXT("%s Returned Null"), *(this->GetName()));
+		return;
+	}
+	UE_LOG(LogTemp, Warning, TEXT("%s Returned: %s"), *(this->GetName()), *ActorToReturn->GetName());
+
 }
 
 void UActorPool::Add(AActor * ActorToAdd)
 {
+	if (ActorToAdd == nullptr) {
+		UE_LOG(LogTemp, Warning, TEXT("%s Added Null"), *(this->GetName()));
+		return;
+	}
+	UE_LOG(LogTemp, Warning, TEXT("%s Added: %s"), *(this->GetName()), *ActorToAdd->GetName());
 }
