@@ -101,3 +101,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG94 Using TArray for Pools
 *TG95 Rebuilding Navigation Meshes
 *TG96 Structs to Simplify Function Args
+*TG97 Spawning AI from C++
