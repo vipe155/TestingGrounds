@@ -100,3 +100,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG93 Using the Pool API
 *TG94 Using TArray for Pools
 *TG95 Rebuilding Navigation Meshes
+*TG96 Structs to Simplify Function Args
