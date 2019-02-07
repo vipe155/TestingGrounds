@@ -72,7 +72,8 @@ void AUE4ASP_Character::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 void AUE4ASP_Character::UnPossessed() 
 {
 	Super::UnPossessed();
-	if (!ensure(Gun))
+	//if (!ensure(Gun))
+	if (Gun == nullptr)
 	{
 		UE_LOG(LogTemp, Error, TEXT("Gun is not available"))
 		return;

@@ -29,6 +29,9 @@ protected:
 	UPROPERTY(EditDefaultsOnly, Category = "Spawning")
 		FVector MaxSpawnBound;
 
+	UPROPERTY(EditDefaultsOnly, Category = "Navigation")
+		FVector NavBoundsOffset;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
