@@ -104,3 +104,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG97 Spawning AI from C++
 *TG98 Keeping Score
 *TG99 Understanding Function Templates
+*TG100 Template Specialization
