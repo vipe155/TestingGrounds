@@ -109,3 +109,4 @@ Unreal Engine Developer Course - Section 5 - Testing Grounds
 *TG102 Using the HUD Class
 *TG103 Post Processing for Tunnel Vision
 *TG104 Recruiting Play Testers
+*TG105 Smooth Blending the Camera
